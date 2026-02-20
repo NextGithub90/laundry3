@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // ─── WhatsApp Config ───
-  const PHONE = '6281234567890'; // Ganti dengan nomor WhatsApp aktual
+  const PHONE = '6281284415836'; // Ganti dengan nomor WhatsApp aktual
   const openWhatsApp = (text) => {
     const url = `https://wa.me/${PHONE}?text=${encodeURIComponent(text)}`;
     window.open(url, '_blank');
